@@ -22,7 +22,7 @@ pod 'MGXBarrage'
 
 ## Author
 
-329735967@qq.com, zhangmiao@xiu8.com
+[mangox](www.devzhang.cn)
 
 ## License
 
