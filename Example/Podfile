@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MGXBarrage_Example' do
+  pod 'MGXBarrage', :path => '../'
+
+  target 'MGXBarrage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

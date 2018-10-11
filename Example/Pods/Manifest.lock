@@ -1,0 +1,16 @@
+PODS:
+  - MGXBarrage (0.1.0)
+
+DEPENDENCIES:
+  - MGXBarrage (from `../`)
+
+EXTERNAL SOURCES:
+  MGXBarrage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MGXBarrage: f496a638758a454f5027dba9b6c10cfbcf07ad8e
+
+PODFILE CHECKSUM: 108535c9ab9f0e34319bccd5cf80a8b3dcc1058b
+
+COCOAPODS: 1.5.3

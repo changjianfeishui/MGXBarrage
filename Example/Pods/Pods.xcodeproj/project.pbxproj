@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030EEDCCCC444E6B879250D252B04328 /* MGXViewReusePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4293D1598C2299F4846D38DDA97F1E73 /* MGXViewReusePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2285E5825275ECBAF2420F890E200661 /* MGXBarrageCellDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0B7570B22332A4F047BBA51D30EDC /* MGXBarrageCellDescriptor.m */; };
+		2398A7BAD755E30DC5F1CC441F97FDA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		347E8F74396D60C5E25427272C11ECBB /* MGXBarrageTrackView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE201FA46117C76A9965594B6BB5EBDE /* MGXBarrageTrackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C6FD832EA7F18B3CD389B49DD9163E4 /* MGXBarrageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F7089DCF4145A202AF9D40DB6676CB /* MGXBarrageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A357896768DABDFEC1FD1B03CD6D7D /* MGXBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DB771DB21AA67E862E596F75DAF72 /* MGXBarrageView.m */; };
+		4D01341977729E5466CE92CFFA5E1A09 /* MGXViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 075359CC4D6364689D5455A826848E60 /* MGXViewReusePool.m */; };
+		5E8886F2A3B08BC56D6A242C48B257E0 /* MGXBarrageTrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 874DE0DABCCA8712F7C042350EEB6FD4 /* MGXBarrageTrackView.m */; };
+		60DB6A1FDECB77B8EA3AAC0ABFEFB45F /* Pods-MGXBarrage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B0FC8704CED8DAA2F272E3500354A /* Pods-MGXBarrage_Example-dummy.m */; };
+		672D66F1A3AB2D7041DE16B497D8BE9C /* MGXBarrage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD250D9B3BFCD8C269647EBD3A5FF1 /* MGXBarrage-dummy.m */; };
+		6CBF1BA9B9C17761B30CB2D27FB42351 /* MGXBarrageDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E9F5D9A2898B7B3F89D0F98FAB81ED /* MGXBarrageDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74E504784E9FD83E5A562E5F45CCE0AE /* MGXViewReusePoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF76D50389E53F7724B87681FE835D7 /* MGXViewReusePoolManager.m */; };
+		AA36F3F2AB54373604DA2D906C5FA226 /* MGXBarrageCellDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D565AE167441E36A5BF99DFD6F8CB6C /* MGXBarrageCellDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF68FB12C028CB36D75ED41AEA0C9DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B04FDD28DED31603A9382C4C8C818C0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C9CAD6706B159379D39358FC070C60EE /* Pods-MGXBarrage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 603AC1C6BEB00ADD0872DE0B70D18E16 /* Pods-MGXBarrage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05D104FB58C87D2495F23065D970C3C /* MGXViewReusePoolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E46288BCFCDFF74D82E550590B163509 /* MGXViewReusePoolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E08BA63416318D80DB047B68F0F712F9 /* MGXBarrage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5604B38044EF76B43BD6400248B608AF /* MGXBarrage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0B37C2C340042C43332AE5A1D071323 /* Pods-MGXBarrage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF7CE576B73B9745CE774943148F7CE /* Pods-MGXBarrage_Tests-dummy.m */; };
+		FAFEE77EA961554619CF20724D0EE4ED /* Pods-MGXBarrage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4E5E21877D166597143D1F20C67909 /* Pods-MGXBarrage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6226F51EF264C828AFA74D66C95E01C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB970186B4790334AC25617E64CECED;
+			remoteInfo = "Pods-MGXBarrage_Example";
+		};
+		FE51E14C6EAB8C9100AACCE34D036553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0D26781DCA4856312CDBF706B393CA;
+			remoteInfo = MGXBarrage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EAB403F1AEBF2A19D723B67F173E83 /* MGXBarrage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGXBarrage.modulemap; sourceTree = "<group>"; };
+		054050893234A00A187DBF0A1E09A397 /* Pods-MGXBarrage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGXBarrage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		075359CC4D6364689D5455A826848E60 /* MGXViewReusePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXViewReusePool.m; sourceTree = "<group>"; };
+		08E9F5D9A2898B7B3F89D0F98FAB81ED /* MGXBarrageDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageDisplay.h; sourceTree = "<group>"; };
+		2022D26EEF71D1317F1B61AC5D959C1F /* Pods-MGXBarrage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGXBarrage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		28FD250D9B3BFCD8C269647EBD3A5FF1 /* MGXBarrage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGXBarrage-dummy.m"; sourceTree = "<group>"; };
+		2F492DD41DE20840838EFBC78F0E4CE3 /* MGXBarrage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGXBarrage.xcconfig; sourceTree = "<group>"; };
+		3CFA735F9859696EC7AFC454FCAD730B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4293D1598C2299F4846D38DDA97F1E73 /* MGXViewReusePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXViewReusePool.h; sourceTree = "<group>"; };
+		4C62DEFD131B82E6EB747EC920530325 /* Pods-MGXBarrage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGXBarrage_Example.modulemap"; sourceTree = "<group>"; };
+		4E4E5E21877D166597143D1F20C67909 /* Pods-MGXBarrage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGXBarrage_Example-umbrella.h"; sourceTree = "<group>"; };
+		4EA424B3712BB2D3EE76F898347D816E /* Pods-MGXBarrage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGXBarrage_Example.release.xcconfig"; sourceTree = "<group>"; };
+		511AAF0A1E4CF0C3D2C6FD54D36BDD89 /* Pods-MGXBarrage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGXBarrage_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5604B38044EF76B43BD6400248B608AF /* MGXBarrage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGXBarrage-umbrella.h"; sourceTree = "<group>"; };
+		5C5628379A68BB46933AB34B281D0699 /* Pods-MGXBarrage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGXBarrage_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5D3B0FC8704CED8DAA2F272E3500354A /* Pods-MGXBarrage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGXBarrage_Example-dummy.m"; sourceTree = "<group>"; };
+		5DA8AE23D0696A1EE93F311EEEBC3C24 /* Pods-MGXBarrage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGXBarrage_Example-resources.sh"; sourceTree = "<group>"; };
+		603AC1C6BEB00ADD0872DE0B70D18E16 /* Pods-MGXBarrage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGXBarrage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		667DB771DB21AA67E862E596F75DAF72 /* MGXBarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageView.m; sourceTree = "<group>"; };
+		6A48814C1EFE33C10EA78CF0414F8190 /* Pods-MGXBarrage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGXBarrage_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6FA0B7570B22332A4F047BBA51D30EDC /* MGXBarrageCellDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageCellDescriptor.m; sourceTree = "<group>"; };
+		78201CEC1AA107006F10A1CAE832ED56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E7F5C05F59071B71E6B56E85F6290A6 /* MGXBarrage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGXBarrage-prefix.pch"; sourceTree = "<group>"; };
+		81A03FFB0DD991FE727192A43A5932AA /* Pods-MGXBarrage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGXBarrage_Tests-resources.sh"; sourceTree = "<group>"; };
+		8430611CFEBA8DF13880DEEE24D4E0DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874DE0DABCCA8712F7C042350EEB6FD4 /* MGXBarrageTrackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageTrackView.m; sourceTree = "<group>"; };
+		8D565AE167441E36A5BF99DFD6F8CB6C /* MGXBarrageCellDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageCellDescriptor.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1535B41239CEF249C2D252555406B3 /* Pods-MGXBarrage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGXBarrage_Tests.modulemap"; sourceTree = "<group>"; };
+		AD99E1102EF2D942E8AA3EF33F1D8E01 /* Pods-MGXBarrage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGXBarrage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE853827E8FB4844C15A0EE84C9D19A3 /* Pods-MGXBarrage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGXBarrage_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BAF7CE576B73B9745CE774943148F7CE /* Pods-MGXBarrage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGXBarrage_Tests-dummy.m"; sourceTree = "<group>"; };
+		C0A93BBD7FB23D9A10C501DACEFF8237 /* Pods_MGXBarrage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGXBarrage_Example.framework; path = "Pods-MGXBarrage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE201FA46117C76A9965594B6BB5EBDE /* MGXBarrageTrackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageTrackView.h; sourceTree = "<group>"; };
+		DD83193B5BFA5C656F202F7DDC9F4BA3 /* Pods-MGXBarrage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGXBarrage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E46288BCFCDFF74D82E550590B163509 /* MGXViewReusePoolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXViewReusePoolManager.h; sourceTree = "<group>"; };
+		EB1D99B11555B688B4FF5E5BB3516BAD /* Pods-MGXBarrage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGXBarrage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBF76D50389E53F7724B87681FE835D7 /* MGXViewReusePoolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXViewReusePoolManager.m; sourceTree = "<group>"; };
+		ECD06A8BB33AE2EA3750ADFA872DBC31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F53E44B9D289779B65BD4E5E36218441 /* Pods_MGXBarrage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGXBarrage_Tests.framework; path = "Pods-MGXBarrage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8740BCAC44242FC577EA8FB6BBBCCF8 /* MGXBarrage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGXBarrage.framework; path = MGXBarrage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F7089DCF4145A202AF9D40DB6676CB /* MGXBarrageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageView.h; sourceTree = "<group>"; };
+		FAB7783AE4651E397CCECBF852AB0BFC /* MGXBarrage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MGXBarrage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB126C4D90EF5FAB78D0FFC3750B9AF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B5077753B4B2DA3BA2B6E4612C6C55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF68FB12C028CB36D75ED41AEA0C9DD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73EFA8CD710E1F4D5945C36105FC661B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2398A7BAD755E30DC5F1CC441F97FDA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E9FA8AB54D9C1B7CFE210C8DB9E053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04FDD28DED31603A9382C4C8C818C0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AEA7A4B3BD832B5BF3F066FB2B136A8 /* ReusePool */ = {
+			isa = PBXGroup;
+			children = (
+				4293D1598C2299F4846D38DDA97F1E73 /* MGXViewReusePool.h */,
+				075359CC4D6364689D5455A826848E60 /* MGXViewReusePool.m */,
+				E46288BCFCDFF74D82E550590B163509 /* MGXViewReusePoolManager.h */,
+				EBF76D50389E53F7724B87681FE835D7 /* MGXViewReusePoolManager.m */,
+			);
+			name = ReusePool;
+			path = MGXBarrage/Classes/ReusePool;
+			sourceTree = "<group>";
+		};
+		27A0C766BEB9D16B4AF38071E8271195 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				78201CEC1AA107006F10A1CAE832ED56 /* LICENSE */,
+				FAB7783AE4651E397CCECBF852AB0BFC /* MGXBarrage.podspec */,
+				ECD06A8BB33AE2EA3750ADFA872DBC31 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5572A84A1E830F7B2427487871365DCC /* Pods-MGXBarrage_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3CFA735F9859696EC7AFC454FCAD730B /* Info.plist */,
+				9F1535B41239CEF249C2D252555406B3 /* Pods-MGXBarrage_Tests.modulemap */,
+				AD99E1102EF2D942E8AA3EF33F1D8E01 /* Pods-MGXBarrage_Tests-acknowledgements.markdown */,
+				054050893234A00A187DBF0A1E09A397 /* Pods-MGXBarrage_Tests-acknowledgements.plist */,
+				BAF7CE576B73B9745CE774943148F7CE /* Pods-MGXBarrage_Tests-dummy.m */,
+				5C5628379A68BB46933AB34B281D0699 /* Pods-MGXBarrage_Tests-frameworks.sh */,
+				81A03FFB0DD991FE727192A43A5932AA /* Pods-MGXBarrage_Tests-resources.sh */,
+				603AC1C6BEB00ADD0872DE0B70D18E16 /* Pods-MGXBarrage_Tests-umbrella.h */,
+				DD83193B5BFA5C656F202F7DDC9F4BA3 /* Pods-MGXBarrage_Tests.debug.xcconfig */,
+				AE853827E8FB4844C15A0EE84C9D19A3 /* Pods-MGXBarrage_Tests.release.xcconfig */,
+			);
+			name = "Pods-MGXBarrage_Tests";
+			path = "Target Support Files/Pods-MGXBarrage_Tests";
+			sourceTree = "<group>";
+		};
+		7496703968AB330CFC7A76FEB70B1585 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				CE201FA46117C76A9965594B6BB5EBDE /* MGXBarrageTrackView.h */,
+				874DE0DABCCA8712F7C042350EEB6FD4 /* MGXBarrageTrackView.m */,
+			);
+			name = Track;
+			path = MGXBarrage/Classes/Track;
+			sourceTree = "<group>";
+		};
+		7C2287736E10AF75F3E774F20DA19C9D /* Pods-MGXBarrage_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FB126C4D90EF5FAB78D0FFC3750B9AF8 /* Info.plist */,
+				4C62DEFD131B82E6EB747EC920530325 /* Pods-MGXBarrage_Example.modulemap */,
+				EB1D99B11555B688B4FF5E5BB3516BAD /* Pods-MGXBarrage_Example-acknowledgements.markdown */,
+				2022D26EEF71D1317F1B61AC5D959C1F /* Pods-MGXBarrage_Example-acknowledgements.plist */,
+				5D3B0FC8704CED8DAA2F272E3500354A /* Pods-MGXBarrage_Example-dummy.m */,
+				511AAF0A1E4CF0C3D2C6FD54D36BDD89 /* Pods-MGXBarrage_Example-frameworks.sh */,
+				5DA8AE23D0696A1EE93F311EEEBC3C24 /* Pods-MGXBarrage_Example-resources.sh */,
+				4E4E5E21877D166597143D1F20C67909 /* Pods-MGXBarrage_Example-umbrella.h */,
+				6A48814C1EFE33C10EA78CF0414F8190 /* Pods-MGXBarrage_Example.debug.xcconfig */,
+				4EA424B3712BB2D3EE76F898347D816E /* Pods-MGXBarrage_Example.release.xcconfig */,
+			);
+			name = "Pods-MGXBarrage_Example";
+			path = "Target Support Files/Pods-MGXBarrage_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8E6C6EBF247FB9670ABEAFD501710A2D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B769A6AB63C1DBA24C3921FA48C0657C /* Products */,
+				F3ECC374D202AA8C4790A735B60B5FB7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87FBA145ED289AA44F774462DC2557BC /* BarrageView */ = {
+			isa = PBXGroup;
+			children = (
+				F9F7089DCF4145A202AF9D40DB6676CB /* MGXBarrageView.h */,
+				667DB771DB21AA67E862E596F75DAF72 /* MGXBarrageView.m */,
+			);
+			name = BarrageView;
+			path = MGXBarrage/Classes/BarrageView;
+			sourceTree = "<group>";
+		};
+		8E6C6EBF247FB9670ABEAFD501710A2D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C840FF71320DF9636A55A3FC3F962D90 /* MGXBarrage */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B769A6AB63C1DBA24C3921FA48C0657C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8740BCAC44242FC577EA8FB6BBBCCF8 /* MGXBarrage.framework */,
+				C0A93BBD7FB23D9A10C501DACEFF8237 /* Pods_MGXBarrage_Example.framework */,
+				F53E44B9D289779B65BD4E5E36218441 /* Pods_MGXBarrage_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C840FF71320DF9636A55A3FC3F962D90 /* MGXBarrage */ = {
+			isa = PBXGroup;
+			children = (
+				87FBA145ED289AA44F774462DC2557BC /* BarrageView */,
+				F1DAE207D7B1729CDBAAC9A6FE46D51F /* Cell */,
+				27A0C766BEB9D16B4AF38071E8271195 /* Pod */,
+				0AEA7A4B3BD832B5BF3F066FB2B136A8 /* ReusePool */,
+				E2A9C06BD545A7820414774D3E52CB0A /* Support Files */,
+				7496703968AB330CFC7A76FEB70B1585 /* Track */,
+			);
+			name = MGXBarrage;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2A9C06BD545A7820414774D3E52CB0A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8430611CFEBA8DF13880DEEE24D4E0DF /* Info.plist */,
+				03EAB403F1AEBF2A19D723B67F173E83 /* MGXBarrage.modulemap */,
+				2F492DD41DE20840838EFBC78F0E4CE3 /* MGXBarrage.xcconfig */,
+				28FD250D9B3BFCD8C269647EBD3A5FF1 /* MGXBarrage-dummy.m */,
+				7E7F5C05F59071B71E6B56E85F6290A6 /* MGXBarrage-prefix.pch */,
+				5604B38044EF76B43BD6400248B608AF /* MGXBarrage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGXBarrage";
+			sourceTree = "<group>";
+		};
+		F1DAE207D7B1729CDBAAC9A6FE46D51F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D565AE167441E36A5BF99DFD6F8CB6C /* MGXBarrageCellDescriptor.h */,
+				6FA0B7570B22332A4F047BBA51D30EDC /* MGXBarrageCellDescriptor.m */,
+				08E9F5D9A2898B7B3F89D0F98FAB81ED /* MGXBarrageDisplay.h */,
+			);
+			name = Cell;
+			path = MGXBarrage/Classes/Cell;
+			sourceTree = "<group>";
+		};
+		F3ECC374D202AA8C4790A735B60B5FB7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C2287736E10AF75F3E774F20DA19C9D /* Pods-MGXBarrage_Example */,
+				5572A84A1E830F7B2427487871365DCC /* Pods-MGXBarrage_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		818BDAC81D0F15CEE4B2CB2286CB93F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08BA63416318D80DB047B68F0F712F9 /* MGXBarrage-umbrella.h in Headers */,
+				AA36F3F2AB54373604DA2D906C5FA226 /* MGXBarrageCellDescriptor.h in Headers */,
+				6CBF1BA9B9C17761B30CB2D27FB42351 /* MGXBarrageDisplay.h in Headers */,
+				347E8F74396D60C5E25427272C11ECBB /* MGXBarrageTrackView.h in Headers */,
+				3C6FD832EA7F18B3CD389B49DD9163E4 /* MGXBarrageView.h in Headers */,
+				030EEDCCCC444E6B879250D252B04328 /* MGXViewReusePool.h in Headers */,
+				D05D104FB58C87D2495F23065D970C3C /* MGXViewReusePoolManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0DB466D40918B2863E4DB973BC4CF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CAD6706B159379D39358FC070C60EE /* Pods-MGXBarrage_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C352EA608D33EEA2C62D8CB7BE4645 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFEE77EA961554619CF20724D0EE4ED /* Pods-MGXBarrage_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C0D26781DCA4856312CDBF706B393CA /* MGXBarrage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C4836FB81B293C376B3FDDF97EAF7D /* Build configuration list for PBXNativeTarget "MGXBarrage" */;
+			buildPhases = (
+				D382E875577FF34024A43F69BF6C8E3B /* Sources */,
+				E7E9FA8AB54D9C1B7CFE210C8DB9E053 /* Frameworks */,
+				818BDAC81D0F15CEE4B2CB2286CB93F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGXBarrage;
+			productName = MGXBarrage;
+			productReference = F8740BCAC44242FC577EA8FB6BBBCCF8 /* MGXBarrage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76A2E0BB015689023D7C9DA0C5C85E8D /* Pods-MGXBarrage_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30379899C49AD4BB1E31D877ABF7CD0C /* Build configuration list for PBXNativeTarget "Pods-MGXBarrage_Tests" */;
+			buildPhases = (
+				26F794E934D5D882F0F48065E5E87F91 /* Sources */,
+				73EFA8CD710E1F4D5945C36105FC661B /* Frameworks */,
+				9B0DB466D40918B2863E4DB973BC4CF5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62EAC82885840FB81F0AFB394E0E42B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-MGXBarrage_Tests";
+			productName = "Pods-MGXBarrage_Tests";
+			productReference = F53E44B9D289779B65BD4E5E36218441 /* Pods_MGXBarrage_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAB970186B4790334AC25617E64CECED /* Pods-MGXBarrage_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB08A125BA97819DF6B7E8BE06C18890 /* Build configuration list for PBXNativeTarget "Pods-MGXBarrage_Example" */;
+			buildPhases = (
+				87B3DC829313760BACB41F97DD97F3E5 /* Sources */,
+				0B5077753B4B2DA3BA2B6E4612C6C55B /* Frameworks */,
+				F3C352EA608D33EEA2C62D8CB7BE4645 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131DD4E8190E24F7CC5876B2915C1418 /* PBXTargetDependency */,
+			);
+			name = "Pods-MGXBarrage_Example";
+			productName = "Pods-MGXBarrage_Example";
+			productReference = C0A93BBD7FB23D9A10C501DACEFF8237 /* Pods_MGXBarrage_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B769A6AB63C1DBA24C3921FA48C0657C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C0D26781DCA4856312CDBF706B393CA /* MGXBarrage */,
+				EAB970186B4790334AC25617E64CECED /* Pods-MGXBarrage_Example */,
+				76A2E0BB015689023D7C9DA0C5C85E8D /* Pods-MGXBarrage_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F794E934D5D882F0F48065E5E87F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0B37C2C340042C43332AE5A1D071323 /* Pods-MGXBarrage_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B3DC829313760BACB41F97DD97F3E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60DB6A1FDECB77B8EA3AAC0ABFEFB45F /* Pods-MGXBarrage_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D382E875577FF34024A43F69BF6C8E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672D66F1A3AB2D7041DE16B497D8BE9C /* MGXBarrage-dummy.m in Sources */,
+				2285E5825275ECBAF2420F890E200661 /* MGXBarrageCellDescriptor.m in Sources */,
+				5E8886F2A3B08BC56D6A242C48B257E0 /* MGXBarrageTrackView.m in Sources */,
+				48A357896768DABDFEC1FD1B03CD6D7D /* MGXBarrageView.m in Sources */,
+				4D01341977729E5466CE92CFFA5E1A09 /* MGXViewReusePool.m in Sources */,
+				74E504784E9FD83E5A562E5F45CCE0AE /* MGXViewReusePoolManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		131DD4E8190E24F7CC5876B2915C1418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGXBarrage;
+			target = 3C0D26781DCA4856312CDBF706B393CA /* MGXBarrage */;
+			targetProxy = FE51E14C6EAB8C9100AACCE34D036553 /* PBXContainerItemProxy */;
+		};
+		62EAC82885840FB81F0AFB394E0E42B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MGXBarrage_Example";
+			target = EAB970186B4790334AC25617E64CECED /* Pods-MGXBarrage_Example */;
+			targetProxy = 6226F51EF264C828AFA74D66C95E01C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02EA8CAD4549F5B996DDCC76D0717267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F492DD41DE20840838EFBC78F0E4CE3 /* MGXBarrage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGXBarrage/MGXBarrage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGXBarrage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGXBarrage/MGXBarrage.modulemap";
+				PRODUCT_MODULE_NAME = MGXBarrage;
+				PRODUCT_NAME = MGXBarrage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		200789D2BFDB7CC234658BEF0D69A424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD83193B5BFA5C656F202F7DDC9F4BA3 /* Pods-MGXBarrage_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGXBarrage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGXBarrage_Tests/Pods-MGXBarrage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		858DC52C3ACB1C0D6F97EE067F76C7E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F492DD41DE20840838EFBC78F0E4CE3 /* MGXBarrage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGXBarrage/MGXBarrage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGXBarrage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGXBarrage/MGXBarrage.modulemap";
+				PRODUCT_MODULE_NAME = MGXBarrage;
+				PRODUCT_NAME = MGXBarrage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A55BB2385192FFF6F9BFE60DCA4725DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA424B3712BB2D3EE76F898347D816E /* Pods-MGXBarrage_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGXBarrage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGXBarrage_Example/Pods-MGXBarrage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D403F47E4A027E277A617C1AF3D3A64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE853827E8FB4844C15A0EE84C9D19A3 /* Pods-MGXBarrage_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGXBarrage_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGXBarrage_Tests/Pods-MGXBarrage_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA4593A5DE4A0F7C5520261238B94191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A48814C1EFE33C10EA78CF0414F8190 /* Pods-MGXBarrage_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGXBarrage_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGXBarrage_Example/Pods-MGXBarrage_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30379899C49AD4BB1E31D877ABF7CD0C /* Build configuration list for PBXNativeTarget "Pods-MGXBarrage_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				200789D2BFDB7CC234658BEF0D69A424 /* Debug */,
+				D403F47E4A027E277A617C1AF3D3A64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C4836FB81B293C376B3FDDF97EAF7D /* Build configuration list for PBXNativeTarget "MGXBarrage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02EA8CAD4549F5B996DDCC76D0717267 /* Debug */,
+				858DC52C3ACB1C0D6F97EE067F76C7E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB08A125BA97819DF6B7E8BE06C18890 /* Build configuration list for PBXNativeTarget "Pods-MGXBarrage_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4593A5DE4A0F7C5520261238B94191 /* Debug */,
+				A55BB2385192FFF6F9BFE60DCA4725DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
