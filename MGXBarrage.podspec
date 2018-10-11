@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/changjianfeishui/MGXBarrage'
-  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mongox' => '329735967@qq.com' }
   s.source           = { :git => 'https://github.com/changjianfeishui/MGXBarrage.git', :tag => s.version.to_s }
 
