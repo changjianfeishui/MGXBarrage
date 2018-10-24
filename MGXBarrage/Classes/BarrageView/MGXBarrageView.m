@@ -221,27 +221,31 @@
 }
 
 #pragma mark ResponseChain
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+- (BOOL)touchesCheck:(CGPoint)point
 {
-    [super touchesBegan:touches withEvent:event];
-    UITouch *touch = [touches anyObject];
-    CGPoint p = [touch locationInView:self];
-    
     for (int i = 0; i < self.poolMgr.allPools.count; i++) {
         MGXViewReusePool *pool = self.poolMgr.allPools[i];
         for (UIView<MGXBarrageDisplay> *cell in pool.usingQueue) {
             CGRect frame = cell.layer.presentationLayer.frame;
             frame = [cell.superview convertRect:frame toView:self];
-            if (CGRectContainsPoint(frame, p)) {
+            if (CGRectContainsPoint(frame, point)) {
                 if ([self.delegate respondsToSelector:@selector(barrageView:didSelectBarrageCell:)]) {
                     [self.delegate barrageView:self didSelectBarrageCell:cell];
                 }
-                return;
+                return YES;
             }
         }
     }
+    return NO;
 }
 
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
+{
+    if ([self touchesCheck:point]) {
+        return self;
+    }
+    return nil;
+}
 
 
 #pragma mark Accessor

@@ -9,7 +9,7 @@
 #import "MGXViewController.h"
 #import "MGXBarrageView.h"
 #import "MGXBarrageCellDescriptor.h"
-
+#import "MGXBtn.h"
 @interface MGXViewController ()<MGXBarrageViewDelegate,MGXBarrageViewDataSource>
 @property (nonatomic,strong) MGXBarrageView *barrageView;
 
@@ -20,8 +20,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UISwitch *sw = [[UISwitch alloc]init];
+    sw.frame = CGRectMake(100, 100, 50, 50);
+    [self.view addSubview:sw];
+    
+    MGXBtn *btn = [[MGXBtn alloc]initWithFrame:CGRectMake(100, 200, 50, 50)];
+    btn.backgroundColor = [UIColor redColor];
+    [btn addTarget:self action:@selector(btnOnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
     self.barrageView = [[MGXBarrageView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:self.barrageView];
+    self.barrageView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
     
     [self.barrageView registerClass:NSClassFromString(@"MGXBarrageViewTextCell") forCellReuseIdentifier:@"MGXBarrageViewTextCell"];
     [self.barrageView registerNib:[UINib nibWithNibName:@"MGXFPSTestCell" bundle:nil] forCellReuseIdentifier:@"MGXFPSTestCell"];
@@ -32,6 +43,12 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
 
 }
+
+- (void)btnOnClick
+{
+    NSLog(@"btnOnClick");
+}
+
 
 - (void)viewWillDisappear:(BOOL)animated
 {
