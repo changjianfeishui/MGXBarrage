@@ -7,7 +7,7 @@
 //
 
 #import "MGXBarrageViewTextCell.h"
-#import "MGXBarrageCellDescriptor.h"
+#import "MGXBarrage.h"
 @interface MGXBarrageViewTextCell()
 @property (nonatomic,strong) UILabel *contentLabel;
 @property (nonatomic,strong) MGXBarrageCellDescriptor *descriptor;

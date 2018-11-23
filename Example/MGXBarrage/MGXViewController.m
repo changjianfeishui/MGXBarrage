@@ -7,8 +7,8 @@
 //
 
 #import "MGXViewController.h"
-#import "MGXBarrageView.h"
-#import "MGXBarrageCellDescriptor.h"
+#import "MGXBarrage.h"
+
 #import "MGXBtn.h"
 @interface MGXViewController ()<MGXBarrageViewDelegate,MGXBarrageViewDataSource>
 @property (nonatomic,strong) MGXBarrageView *barrageView;

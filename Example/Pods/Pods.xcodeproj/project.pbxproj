@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030EEDCCCC444E6B879250D252B04328 /* MGXViewReusePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4293D1598C2299F4846D38DDA97F1E73 /* MGXViewReusePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2285E5825275ECBAF2420F890E200661 /* MGXBarrageCellDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0B7570B22332A4F047BBA51D30EDC /* MGXBarrageCellDescriptor.m */; };
+		224B4B778B12A48C0808C2EB9EA465F7 /* MGXBarrageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A02810A040B207BF40910B1102E69AA /* MGXBarrageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2398A7BAD755E30DC5F1CC441F97FDA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		347E8F74396D60C5E25427272C11ECBB /* MGXBarrageTrackView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE201FA46117C76A9965594B6BB5EBDE /* MGXBarrageTrackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C6FD832EA7F18B3CD389B49DD9163E4 /* MGXBarrageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F7089DCF4145A202AF9D40DB6676CB /* MGXBarrageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48A357896768DABDFEC1FD1B03CD6D7D /* MGXBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DB771DB21AA67E862E596F75DAF72 /* MGXBarrageView.m */; };
-		4D01341977729E5466CE92CFFA5E1A09 /* MGXViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 075359CC4D6364689D5455A826848E60 /* MGXViewReusePool.m */; };
-		5E8886F2A3B08BC56D6A242C48B257E0 /* MGXBarrageTrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 874DE0DABCCA8712F7C042350EEB6FD4 /* MGXBarrageTrackView.m */; };
+		24E429E982723A80A721AB14CD3D0658 /* MGXViewReusePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FC7719584913DC2776521B344FB800 /* MGXViewReusePool.m */; };
+		2BA634C498017EBBF1281A8BE36B48D8 /* MGXBarrageTrackView.h in Headers */ = {isa = PBXBuildFile; fileRef = A209D0F64E61A1FED1E5318559737FBB /* MGXBarrageTrackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2BCD6520F92ED03BD912E46CE638AC /* MGXBarrageCellDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F92E0808ACB573A5DA1FAB5D8AC3AF /* MGXBarrageCellDescriptor.m */; };
+		57F8969031896DE99AF517B16E4511A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5D1425BBFCB2CDC89744A368714ACA23 /* MGXBarrage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE64D16ADAF72D7283D28D0B3390A1C /* MGXBarrage-dummy.m */; };
 		60DB6A1FDECB77B8EA3AAC0ABFEFB45F /* Pods-MGXBarrage_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3B0FC8704CED8DAA2F272E3500354A /* Pods-MGXBarrage_Example-dummy.m */; };
-		672D66F1A3AB2D7041DE16B497D8BE9C /* MGXBarrage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD250D9B3BFCD8C269647EBD3A5FF1 /* MGXBarrage-dummy.m */; };
-		6CBF1BA9B9C17761B30CB2D27FB42351 /* MGXBarrageDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E9F5D9A2898B7B3F89D0F98FAB81ED /* MGXBarrageDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74E504784E9FD83E5A562E5F45CCE0AE /* MGXViewReusePoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF76D50389E53F7724B87681FE835D7 /* MGXViewReusePoolManager.m */; };
-		AA36F3F2AB54373604DA2D906C5FA226 /* MGXBarrageCellDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D565AE167441E36A5BF99DFD6F8CB6C /* MGXBarrageCellDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75D976BEE02DAAE04470C41E699CFA94 /* MGXBarrageCellDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = E92E9DC1AB795778C7A4E6579404C6D5 /* MGXBarrageCellDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		832E9EE18FAA6A9C51CEA0C6B862EFE5 /* MGXViewReusePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3574D4B221FC87DFC78CB1F19804B9 /* MGXViewReusePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0040F7DC8D92D39E633F5CCBD2B555 /* MGXViewReusePoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C857B6F940190A6FC3E91804F8396F37 /* MGXViewReusePoolManager.m */; };
+		9822B0D5C0A345962CD67E26B2DD89DC /* MGXBarrageTrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 078895F205DA7CF75FD1A222FDB52AF3 /* MGXBarrageTrackView.m */; };
 		AF68FB12C028CB36D75ED41AEA0C9DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B04FDD28DED31603A9382C4C8C818C0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AF937DB44DC463B8439A42F9B1CB6DA1 /* MGXBarrage.h in Headers */ = {isa = PBXBuildFile; fileRef = 51465E9935020C841AE012561B7CA1EA /* MGXBarrage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6913628322402BA1C42333B26DCDBF6 /* MGXBarrage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29F7E92E313082FDEFC10E1C67C91093 /* MGXBarrage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9CAD6706B159379D39358FC070C60EE /* Pods-MGXBarrage_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 603AC1C6BEB00ADD0872DE0B70D18E16 /* Pods-MGXBarrage_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D05D104FB58C87D2495F23065D970C3C /* MGXViewReusePoolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E46288BCFCDFF74D82E550590B163509 /* MGXViewReusePoolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E08BA63416318D80DB047B68F0F712F9 /* MGXBarrage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5604B38044EF76B43BD6400248B608AF /* MGXBarrage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0B37C2C340042C43332AE5A1D071323 /* Pods-MGXBarrage_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF7CE576B73B9745CE774943148F7CE /* Pods-MGXBarrage_Tests-dummy.m */; };
+		E4A8A953071FBF490CB5B16A134DFEA4 /* MGXBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FB19FE1F7B3CCACEFF124151196B5A /* MGXBarrageView.m */; };
+		ECFAE4F2D0183806E261D7DBD341384E /* MGXBarrageDisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 4961DD98647209E9E8333EE5402FEB90 /* MGXBarrageDisplay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6834A4B812258BE1E47FBE4C8B8BEB0 /* MGXViewReusePoolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2372926C5F3ECDF535D5A7D3250F85E2 /* MGXViewReusePoolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAFEE77EA961554619CF20724D0EE4ED /* Pods-MGXBarrage_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E4E5E21877D166597143D1F20C67909 /* Pods-MGXBarrage_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -41,56 +42,57 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3C0D26781DCA4856312CDBF706B393CA;
+			remoteGlobalIDString = EC86339CBF63B7C3FED4E2F456D96527;
 			remoteInfo = MGXBarrage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03EAB403F1AEBF2A19D723B67F173E83 /* MGXBarrage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGXBarrage.modulemap; sourceTree = "<group>"; };
+		04D715068A3904D435E0225A1624A5C1 /* MGXBarrage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MGXBarrage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		054050893234A00A187DBF0A1E09A397 /* Pods-MGXBarrage_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGXBarrage_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		075359CC4D6364689D5455A826848E60 /* MGXViewReusePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXViewReusePool.m; sourceTree = "<group>"; };
-		08E9F5D9A2898B7B3F89D0F98FAB81ED /* MGXBarrageDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageDisplay.h; sourceTree = "<group>"; };
+		078895F205DA7CF75FD1A222FDB52AF3 /* MGXBarrageTrackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageTrackView.m; sourceTree = "<group>"; };
+		156C200CA91C80016197A14738468B04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2022D26EEF71D1317F1B61AC5D959C1F /* Pods-MGXBarrage_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGXBarrage_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		28FD250D9B3BFCD8C269647EBD3A5FF1 /* MGXBarrage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGXBarrage-dummy.m"; sourceTree = "<group>"; };
-		2F492DD41DE20840838EFBC78F0E4CE3 /* MGXBarrage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGXBarrage.xcconfig; sourceTree = "<group>"; };
+		20260665E224AC3C3A87E6AA69BA9C96 /* MGXBarrage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGXBarrage.modulemap; sourceTree = "<group>"; };
+		2372926C5F3ECDF535D5A7D3250F85E2 /* MGXViewReusePoolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXViewReusePoolManager.h; sourceTree = "<group>"; };
+		29F7E92E313082FDEFC10E1C67C91093 /* MGXBarrage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGXBarrage-umbrella.h"; sourceTree = "<group>"; };
+		2C7CDB12EA6716FB5CE902B28835C48F /* MGXBarrage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGXBarrage-prefix.pch"; sourceTree = "<group>"; };
 		3CFA735F9859696EC7AFC454FCAD730B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4293D1598C2299F4846D38DDA97F1E73 /* MGXViewReusePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXViewReusePool.h; sourceTree = "<group>"; };
+		4961DD98647209E9E8333EE5402FEB90 /* MGXBarrageDisplay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageDisplay.h; sourceTree = "<group>"; };
 		4C62DEFD131B82E6EB747EC920530325 /* Pods-MGXBarrage_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGXBarrage_Example.modulemap"; sourceTree = "<group>"; };
 		4E4E5E21877D166597143D1F20C67909 /* Pods-MGXBarrage_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGXBarrage_Example-umbrella.h"; sourceTree = "<group>"; };
 		4EA424B3712BB2D3EE76F898347D816E /* Pods-MGXBarrage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGXBarrage_Example.release.xcconfig"; sourceTree = "<group>"; };
 		511AAF0A1E4CF0C3D2C6FD54D36BDD89 /* Pods-MGXBarrage_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGXBarrage_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5604B38044EF76B43BD6400248B608AF /* MGXBarrage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGXBarrage-umbrella.h"; sourceTree = "<group>"; };
+		51465E9935020C841AE012561B7CA1EA /* MGXBarrage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrage.h; sourceTree = "<group>"; };
 		5C5628379A68BB46933AB34B281D0699 /* Pods-MGXBarrage_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGXBarrage_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5D3B0FC8704CED8DAA2F272E3500354A /* Pods-MGXBarrage_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGXBarrage_Example-dummy.m"; sourceTree = "<group>"; };
 		5DA8AE23D0696A1EE93F311EEEBC3C24 /* Pods-MGXBarrage_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGXBarrage_Example-resources.sh"; sourceTree = "<group>"; };
 		603AC1C6BEB00ADD0872DE0B70D18E16 /* Pods-MGXBarrage_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGXBarrage_Tests-umbrella.h"; sourceTree = "<group>"; };
+		61FF3BDA75EA57B13C9198615870DF1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		667DB771DB21AA67E862E596F75DAF72 /* MGXBarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageView.m; sourceTree = "<group>"; };
+		6A02810A040B207BF40910B1102E69AA /* MGXBarrageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageView.h; sourceTree = "<group>"; };
 		6A48814C1EFE33C10EA78CF0414F8190 /* Pods-MGXBarrage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGXBarrage_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6FA0B7570B22332A4F047BBA51D30EDC /* MGXBarrageCellDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageCellDescriptor.m; sourceTree = "<group>"; };
-		78201CEC1AA107006F10A1CAE832ED56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7E7F5C05F59071B71E6B56E85F6290A6 /* MGXBarrage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGXBarrage-prefix.pch"; sourceTree = "<group>"; };
 		81A03FFB0DD991FE727192A43A5932AA /* Pods-MGXBarrage_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGXBarrage_Tests-resources.sh"; sourceTree = "<group>"; };
-		8430611CFEBA8DF13880DEEE24D4E0DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		874DE0DABCCA8712F7C042350EEB6FD4 /* MGXBarrageTrackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageTrackView.m; sourceTree = "<group>"; };
-		8D565AE167441E36A5BF99DFD6F8CB6C /* MGXBarrageCellDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageCellDescriptor.h; sourceTree = "<group>"; };
+		8D5CD668B495F9E79BC785EEEECC71A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8DE64D16ADAF72D7283D28D0B3390A1C /* MGXBarrage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGXBarrage-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B3574D4B221FC87DFC78CB1F19804B9 /* MGXViewReusePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXViewReusePool.h; sourceTree = "<group>"; };
 		9F1535B41239CEF249C2D252555406B3 /* Pods-MGXBarrage_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGXBarrage_Tests.modulemap"; sourceTree = "<group>"; };
+		A209D0F64E61A1FED1E5318559737FBB /* MGXBarrageTrackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageTrackView.h; sourceTree = "<group>"; };
+		A8F92E0808ACB573A5DA1FAB5D8AC3AF /* MGXBarrageCellDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageCellDescriptor.m; sourceTree = "<group>"; };
 		AD99E1102EF2D942E8AA3EF33F1D8E01 /* Pods-MGXBarrage_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGXBarrage_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE853827E8FB4844C15A0EE84C9D19A3 /* Pods-MGXBarrage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGXBarrage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BAF7CE576B73B9745CE774943148F7CE /* Pods-MGXBarrage_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGXBarrage_Tests-dummy.m"; sourceTree = "<group>"; };
 		C0A93BBD7FB23D9A10C501DACEFF8237 /* Pods_MGXBarrage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGXBarrage_Example.framework; path = "Pods-MGXBarrage_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE201FA46117C76A9965594B6BB5EBDE /* MGXBarrageTrackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageTrackView.h; sourceTree = "<group>"; };
+		C857B6F940190A6FC3E91804F8396F37 /* MGXViewReusePoolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXViewReusePoolManager.m; sourceTree = "<group>"; };
+		D5759F1A4C4971EC6D44AFA7A41C9CCB /* MGXBarrage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGXBarrage.xcconfig; sourceTree = "<group>"; };
 		DD83193B5BFA5C656F202F7DDC9F4BA3 /* Pods-MGXBarrage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGXBarrage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E46288BCFCDFF74D82E550590B163509 /* MGXViewReusePoolManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXViewReusePoolManager.h; sourceTree = "<group>"; };
+		E92E9DC1AB795778C7A4E6579404C6D5 /* MGXBarrageCellDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageCellDescriptor.h; sourceTree = "<group>"; };
 		EB1D99B11555B688B4FF5E5BB3516BAD /* Pods-MGXBarrage_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGXBarrage_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EBF76D50389E53F7724B87681FE835D7 /* MGXViewReusePoolManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXViewReusePoolManager.m; sourceTree = "<group>"; };
-		ECD06A8BB33AE2EA3750ADFA872DBC31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F53E44B9D289779B65BD4E5E36218441 /* Pods_MGXBarrage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGXBarrage_Tests.framework; path = "Pods-MGXBarrage_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FB19FE1F7B3CCACEFF124151196B5A /* MGXBarrageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXBarrageView.m; sourceTree = "<group>"; };
 		F8740BCAC44242FC577EA8FB6BBBCCF8 /* MGXBarrage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGXBarrage.framework; path = MGXBarrage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9F7089DCF4145A202AF9D40DB6676CB /* MGXBarrageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGXBarrageView.h; sourceTree = "<group>"; };
-		FAB7783AE4651E397CCECBF852AB0BFC /* MGXBarrage.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MGXBarrage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8FC7719584913DC2776521B344FB800 /* MGXViewReusePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGXViewReusePool.m; sourceTree = "<group>"; };
 		FB126C4D90EF5FAB78D0FFC3750B9AF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,37 +113,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7E9FA8AB54D9C1B7CFE210C8DB9E053 /* Frameworks */ = {
+		9E7CE48ADFE51D40122BF0E9CEF2B3C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B04FDD28DED31603A9382C4C8C818C0B /* Foundation.framework in Frameworks */,
+				57F8969031896DE99AF517B16E4511A6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AEA7A4B3BD832B5BF3F066FB2B136A8 /* ReusePool */ = {
+		1884334547D88781EB10C71F237D299A /* MGXBarrage */ = {
 			isa = PBXGroup;
 			children = (
-				4293D1598C2299F4846D38DDA97F1E73 /* MGXViewReusePool.h */,
-				075359CC4D6364689D5455A826848E60 /* MGXViewReusePool.m */,
-				E46288BCFCDFF74D82E550590B163509 /* MGXViewReusePoolManager.h */,
-				EBF76D50389E53F7724B87681FE835D7 /* MGXViewReusePoolManager.m */,
+				476324AF6721EB962197EC4D306099D2 /* BarrageView */,
+				CAB0A074EB4D1B9788C93A610EF0CAFB /* Cell */,
+				640B49B3757D45D9AEDC0E240732D8A0 /* Pod */,
+				A742CD9C818A6A7F5A125C4D83BBD28F /* ReusePool */,
+				BB401372D7F0B1611AA3C08053E3DF20 /* Support Files */,
+				F048AB0C35006831FB9773CF517250B6 /* Track */,
 			);
-			name = ReusePool;
-			path = MGXBarrage/Classes/ReusePool;
+			name = MGXBarrage;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		27A0C766BEB9D16B4AF38071E8271195 /* Pod */ = {
+		476324AF6721EB962197EC4D306099D2 /* BarrageView */ = {
 			isa = PBXGroup;
 			children = (
-				78201CEC1AA107006F10A1CAE832ED56 /* LICENSE */,
-				FAB7783AE4651E397CCECBF852AB0BFC /* MGXBarrage.podspec */,
-				ECD06A8BB33AE2EA3750ADFA872DBC31 /* README.md */,
+				51465E9935020C841AE012561B7CA1EA /* MGXBarrage.h */,
+				6A02810A040B207BF40910B1102E69AA /* MGXBarrageView.h */,
+				F7FB19FE1F7B3CCACEFF124151196B5A /* MGXBarrageView.m */,
 			);
-			name = Pod;
+			name = BarrageView;
+			path = MGXBarrage/Classes/BarrageView;
 			sourceTree = "<group>";
 		};
 		5572A84A1E830F7B2427487871365DCC /* Pods-MGXBarrage_Tests */ = {
@@ -162,14 +167,14 @@
 			path = "Target Support Files/Pods-MGXBarrage_Tests";
 			sourceTree = "<group>";
 		};
-		7496703968AB330CFC7A76FEB70B1585 /* Track */ = {
+		640B49B3757D45D9AEDC0E240732D8A0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				CE201FA46117C76A9965594B6BB5EBDE /* MGXBarrageTrackView.h */,
-				874DE0DABCCA8712F7C042350EEB6FD4 /* MGXBarrageTrackView.m */,
+				156C200CA91C80016197A14738468B04 /* LICENSE */,
+				04D715068A3904D435E0225A1624A5C1 /* MGXBarrage.podspec */,
+				8D5CD668B495F9E79BC785EEEECC71A6 /* README.md */,
 			);
-			name = Track;
-			path = MGXBarrage/Classes/Track;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7C2287736E10AF75F3E774F20DA19C9D /* Pods-MGXBarrage_Example */ = {
@@ -201,22 +206,24 @@
 			);
 			sourceTree = "<group>";
 		};
-		87FBA145ED289AA44F774462DC2557BC /* BarrageView */ = {
-			isa = PBXGroup;
-			children = (
-				F9F7089DCF4145A202AF9D40DB6676CB /* MGXBarrageView.h */,
-				667DB771DB21AA67E862E596F75DAF72 /* MGXBarrageView.m */,
-			);
-			name = BarrageView;
-			path = MGXBarrage/Classes/BarrageView;
-			sourceTree = "<group>";
-		};
 		8E6C6EBF247FB9670ABEAFD501710A2D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C840FF71320DF9636A55A3FC3F962D90 /* MGXBarrage */,
+				1884334547D88781EB10C71F237D299A /* MGXBarrage */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A742CD9C818A6A7F5A125C4D83BBD28F /* ReusePool */ = {
+			isa = PBXGroup;
+			children = (
+				9B3574D4B221FC87DFC78CB1F19804B9 /* MGXViewReusePool.h */,
+				F8FC7719584913DC2776521B344FB800 /* MGXViewReusePool.m */,
+				2372926C5F3ECDF535D5A7D3250F85E2 /* MGXViewReusePoolManager.h */,
+				C857B6F940190A6FC3E91804F8396F37 /* MGXViewReusePoolManager.m */,
+			);
+			name = ReusePool;
+			path = MGXBarrage/Classes/ReusePool;
 			sourceTree = "<group>";
 		};
 		B769A6AB63C1DBA24C3921FA48C0657C /* Products */ = {
@@ -229,6 +236,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BB401372D7F0B1611AA3C08053E3DF20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61FF3BDA75EA57B13C9198615870DF1E /* Info.plist */,
+				20260665E224AC3C3A87E6AA69BA9C96 /* MGXBarrage.modulemap */,
+				D5759F1A4C4971EC6D44AFA7A41C9CCB /* MGXBarrage.xcconfig */,
+				8DE64D16ADAF72D7283D28D0B3390A1C /* MGXBarrage-dummy.m */,
+				2C7CDB12EA6716FB5CE902B28835C48F /* MGXBarrage-prefix.pch */,
+				29F7E92E313082FDEFC10E1C67C91093 /* MGXBarrage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGXBarrage";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,18 +258,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C840FF71320DF9636A55A3FC3F962D90 /* MGXBarrage */ = {
+		CAB0A074EB4D1B9788C93A610EF0CAFB /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				87FBA145ED289AA44F774462DC2557BC /* BarrageView */,
-				F1DAE207D7B1729CDBAAC9A6FE46D51F /* Cell */,
-				27A0C766BEB9D16B4AF38071E8271195 /* Pod */,
-				0AEA7A4B3BD832B5BF3F066FB2B136A8 /* ReusePool */,
-				E2A9C06BD545A7820414774D3E52CB0A /* Support Files */,
-				7496703968AB330CFC7A76FEB70B1585 /* Track */,
+				E92E9DC1AB795778C7A4E6579404C6D5 /* MGXBarrageCellDescriptor.h */,
+				A8F92E0808ACB573A5DA1FAB5D8AC3AF /* MGXBarrageCellDescriptor.m */,
+				4961DD98647209E9E8333EE5402FEB90 /* MGXBarrageDisplay.h */,
 			);
-			name = MGXBarrage;
-			path = ../..;
+			name = Cell;
+			path = MGXBarrage/Classes/Cell;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -259,29 +277,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E2A9C06BD545A7820414774D3E52CB0A /* Support Files */ = {
+		F048AB0C35006831FB9773CF517250B6 /* Track */ = {
 			isa = PBXGroup;
 			children = (
-				8430611CFEBA8DF13880DEEE24D4E0DF /* Info.plist */,
-				03EAB403F1AEBF2A19D723B67F173E83 /* MGXBarrage.modulemap */,
-				2F492DD41DE20840838EFBC78F0E4CE3 /* MGXBarrage.xcconfig */,
-				28FD250D9B3BFCD8C269647EBD3A5FF1 /* MGXBarrage-dummy.m */,
-				7E7F5C05F59071B71E6B56E85F6290A6 /* MGXBarrage-prefix.pch */,
-				5604B38044EF76B43BD6400248B608AF /* MGXBarrage-umbrella.h */,
+				A209D0F64E61A1FED1E5318559737FBB /* MGXBarrageTrackView.h */,
+				078895F205DA7CF75FD1A222FDB52AF3 /* MGXBarrageTrackView.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MGXBarrage";
-			sourceTree = "<group>";
-		};
-		F1DAE207D7B1729CDBAAC9A6FE46D51F /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				8D565AE167441E36A5BF99DFD6F8CB6C /* MGXBarrageCellDescriptor.h */,
-				6FA0B7570B22332A4F047BBA51D30EDC /* MGXBarrageCellDescriptor.m */,
-				08E9F5D9A2898B7B3F89D0F98FAB81ED /* MGXBarrageDisplay.h */,
-			);
-			name = Cell;
-			path = MGXBarrage/Classes/Cell;
+			name = Track;
+			path = MGXBarrage/Classes/Track;
 			sourceTree = "<group>";
 		};
 		F3ECC374D202AA8C4790A735B60B5FB7 /* Targets Support Files */ = {
@@ -296,17 +299,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		818BDAC81D0F15CEE4B2CB2286CB93F1 /* Headers */ = {
+		8AFC63CA35A70E64F96C7C4D3F56D02D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08BA63416318D80DB047B68F0F712F9 /* MGXBarrage-umbrella.h in Headers */,
-				AA36F3F2AB54373604DA2D906C5FA226 /* MGXBarrageCellDescriptor.h in Headers */,
-				6CBF1BA9B9C17761B30CB2D27FB42351 /* MGXBarrageDisplay.h in Headers */,
-				347E8F74396D60C5E25427272C11ECBB /* MGXBarrageTrackView.h in Headers */,
-				3C6FD832EA7F18B3CD389B49DD9163E4 /* MGXBarrageView.h in Headers */,
-				030EEDCCCC444E6B879250D252B04328 /* MGXViewReusePool.h in Headers */,
-				D05D104FB58C87D2495F23065D970C3C /* MGXViewReusePoolManager.h in Headers */,
+				B6913628322402BA1C42333B26DCDBF6 /* MGXBarrage-umbrella.h in Headers */,
+				AF937DB44DC463B8439A42F9B1CB6DA1 /* MGXBarrage.h in Headers */,
+				75D976BEE02DAAE04470C41E699CFA94 /* MGXBarrageCellDescriptor.h in Headers */,
+				ECFAE4F2D0183806E261D7DBD341384E /* MGXBarrageDisplay.h in Headers */,
+				2BA634C498017EBBF1281A8BE36B48D8 /* MGXBarrageTrackView.h in Headers */,
+				224B4B778B12A48C0808C2EB9EA465F7 /* MGXBarrageView.h in Headers */,
+				832E9EE18FAA6A9C51CEA0C6B862EFE5 /* MGXViewReusePool.h in Headers */,
+				F6834A4B812258BE1E47FBE4C8B8BEB0 /* MGXViewReusePoolManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,23 +333,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3C0D26781DCA4856312CDBF706B393CA /* MGXBarrage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B3C4836FB81B293C376B3FDDF97EAF7D /* Build configuration list for PBXNativeTarget "MGXBarrage" */;
-			buildPhases = (
-				D382E875577FF34024A43F69BF6C8E3B /* Sources */,
-				E7E9FA8AB54D9C1B7CFE210C8DB9E053 /* Frameworks */,
-				818BDAC81D0F15CEE4B2CB2286CB93F1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MGXBarrage;
-			productName = MGXBarrage;
-			productReference = F8740BCAC44242FC577EA8FB6BBBCCF8 /* MGXBarrage.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		76A2E0BB015689023D7C9DA0C5C85E8D /* Pods-MGXBarrage_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30379899C49AD4BB1E31D877ABF7CD0C /* Build configuration list for PBXNativeTarget "Pods-MGXBarrage_Tests" */;
@@ -382,6 +369,23 @@
 			productReference = C0A93BBD7FB23D9A10C501DACEFF8237 /* Pods_MGXBarrage_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EC86339CBF63B7C3FED4E2F456D96527 /* MGXBarrage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CACE53AC003CB8A9AED357027C3B11D /* Build configuration list for PBXNativeTarget "MGXBarrage" */;
+			buildPhases = (
+				155C20FF33DD92DE40124CC013B33D16 /* Sources */,
+				9E7CE48ADFE51D40122BF0E9CEF2B3C3 /* Frameworks */,
+				8AFC63CA35A70E64F96C7C4D3F56D02D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGXBarrage;
+			productName = MGXBarrage;
+			productReference = F8740BCAC44242FC577EA8FB6BBBCCF8 /* MGXBarrage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -403,7 +407,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C0D26781DCA4856312CDBF706B393CA /* MGXBarrage */,
+				EC86339CBF63B7C3FED4E2F456D96527 /* MGXBarrage */,
 				EAB970186B4790334AC25617E64CECED /* Pods-MGXBarrage_Example */,
 				76A2E0BB015689023D7C9DA0C5C85E8D /* Pods-MGXBarrage_Tests */,
 			);
@@ -411,6 +415,19 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		155C20FF33DD92DE40124CC013B33D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1425BBFCB2CDC89744A368714ACA23 /* MGXBarrage-dummy.m in Sources */,
+				3F2BCD6520F92ED03BD912E46CE638AC /* MGXBarrageCellDescriptor.m in Sources */,
+				9822B0D5C0A345962CD67E26B2DD89DC /* MGXBarrageTrackView.m in Sources */,
+				E4A8A953071FBF490CB5B16A134DFEA4 /* MGXBarrageView.m in Sources */,
+				24E429E982723A80A721AB14CD3D0658 /* MGXViewReusePool.m in Sources */,
+				8F0040F7DC8D92D39E633F5CCBD2B555 /* MGXViewReusePoolManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		26F794E934D5D882F0F48065E5E87F91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,26 +444,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D382E875577FF34024A43F69BF6C8E3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				672D66F1A3AB2D7041DE16B497D8BE9C /* MGXBarrage-dummy.m in Sources */,
-				2285E5825275ECBAF2420F890E200661 /* MGXBarrageCellDescriptor.m in Sources */,
-				5E8886F2A3B08BC56D6A242C48B257E0 /* MGXBarrageTrackView.m in Sources */,
-				48A357896768DABDFEC1FD1B03CD6D7D /* MGXBarrageView.m in Sources */,
-				4D01341977729E5466CE92CFFA5E1A09 /* MGXViewReusePool.m in Sources */,
-				74E504784E9FD83E5A562E5F45CCE0AE /* MGXViewReusePoolManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		131DD4E8190E24F7CC5876B2915C1418 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MGXBarrage;
-			target = 3C0D26781DCA4856312CDBF706B393CA /* MGXBarrage */;
+			target = EC86339CBF63B7C3FED4E2F456D96527 /* MGXBarrage */;
 			targetProxy = FE51E14C6EAB8C9100AACCE34D036553 /* PBXContainerItemProxy */;
 		};
 		62EAC82885840FB81F0AFB394E0E42B1 /* PBXTargetDependency */ = {
@@ -458,36 +462,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02EA8CAD4549F5B996DDCC76D0717267 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F492DD41DE20840838EFBC78F0E4CE3 /* MGXBarrage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MGXBarrage/MGXBarrage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGXBarrage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGXBarrage/MGXBarrage.modulemap";
-				PRODUCT_MODULE_NAME = MGXBarrage;
-				PRODUCT_NAME = MGXBarrage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -618,9 +592,9 @@
 			};
 			name = Release;
 		};
-		858DC52C3ACB1C0D6F97EE067F76C7E7 /* Release */ = {
+		8B1009C78B0EAF82E3E0316FF8521F14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F492DD41DE20840838EFBC78F0E4CE3 /* MGXBarrage.xcconfig */;
+			baseConfigurationReference = D5759F1A4C4971EC6D44AFA7A41C9CCB /* MGXBarrage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -716,6 +690,36 @@
 			};
 			name = Release;
 		};
+		D54EE2784758EA95BAE25C408189C8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5759F1A4C4971EC6D44AFA7A41C9CCB /* MGXBarrage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGXBarrage/MGXBarrage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGXBarrage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGXBarrage/MGXBarrage.modulemap";
+				PRODUCT_MODULE_NAME = MGXBarrage;
+				PRODUCT_NAME = MGXBarrage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -795,11 +799,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B3C4836FB81B293C376B3FDDF97EAF7D /* Build configuration list for PBXNativeTarget "MGXBarrage" */ = {
+		7CACE53AC003CB8A9AED357027C3B11D /* Build configuration list for PBXNativeTarget "MGXBarrage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02EA8CAD4549F5B996DDCC76D0717267 /* Debug */,
-				858DC52C3ACB1C0D6F97EE067F76C7E7 /* Release */,
+				D54EE2784758EA95BAE25C408189C8EF /* Debug */,
+				8B1009C78B0EAF82E3E0316FF8521F14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

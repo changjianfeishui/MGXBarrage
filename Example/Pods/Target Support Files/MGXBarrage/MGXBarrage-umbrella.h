@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MGXBarrage.h"
 #import "MGXBarrageView.h"
 #import "MGXBarrageCellDescriptor.h"
 #import "MGXBarrageDisplay.h"
