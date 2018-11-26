@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (CGFloat)barrageWidth;
 
 /**
- 使用者应在此方法内设置弹幕内容,并计算弹幕宽度
+ 使用者应在此方法内设置弹幕内容,并计算弹幕宽高
 
  */
 - (void)configBarrageWithDescriptor:(MGXBarrageCellDescriptor *)descriptor;
