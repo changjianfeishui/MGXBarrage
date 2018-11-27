@@ -10,10 +10,10 @@
 #endif
 #endif
 
-#import "MGXBarrage.h"
 #import "MGXBarrageView.h"
 #import "MGXBarrageCellDescriptor.h"
 #import "MGXBarrageDisplay.h"
+#import "MGXBarrage.h"
 #import "MGXViewReusePool.h"
 #import "MGXViewReusePoolManager.h"
 #import "MGXBarrageTrackView.h"

@@ -1,5 +1,5 @@
 PODS:
-  - MGXBarrage (0.3.0)
+  - MGXBarrage (0.5.0)
 
 DEPENDENCIES:
   - MGXBarrage (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MGXBarrage: 0139615f22860b9c8cbbb085e5efcb241d45fa21
+  MGXBarrage: 7de6cda7f2e4ca88880da5630fa2fafdb7d0c94d
 
 PODFILE CHECKSUM: 108535c9ab9f0e34319bccd5cf80a8b3dcc1058b
 

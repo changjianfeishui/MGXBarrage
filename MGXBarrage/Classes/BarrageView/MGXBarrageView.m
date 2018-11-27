@@ -78,7 +78,6 @@
             }
             track.frame = CGRectMake(0, preTrackHeight, self.bounds.size.width, height);
             preTrackHeight += height;
-//            track.backgroundColor = XBRandomColor;
             [self addSubview:track];
             [self.tracks addObject:track];
         }
@@ -154,7 +153,6 @@
 #pragma mark Barrage Animation
 - (void)prepareAnimation
 {
-
     if (self.descriptorItems.count == 0) {
         //10s连续轮空
         if (_idleCount++ >= 60 * 10) {
@@ -197,9 +195,7 @@
     animation.fillMode = kCAFillModeForwards;
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
     [cell.layer addAnimation:animation forKey:@"MGXBarrageView"];
-    
     dispatch_semaphore_signal(_readLock);
-  
 }
 
 
@@ -241,6 +237,10 @@
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
+    if (!self.delegate || ![self.delegate respondsToSelector:@selector(barrage)]) {
+        return nil;
+    }
+    
     if ([self touchesCheck:point]) {
         return self;
     }
