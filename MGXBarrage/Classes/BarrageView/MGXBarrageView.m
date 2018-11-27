@@ -237,7 +237,7 @@
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
-    if (!self.delegate || ![self.delegate respondsToSelector:@selector(barrage)]) {
+    if (!self.delegate || ![self.delegate respondsToSelector:@selector(barrageView:didSelectBarrageCell:)]) {
         return nil;
     }
     
