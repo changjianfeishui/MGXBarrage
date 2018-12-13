@@ -26,6 +26,7 @@
 
 @property (nonatomic,strong) CADisplayLink *displayLink;
 @property (nonatomic,assign) NSInteger idleCount;
+@property (nonatomic,assign) NSTimeInterval lastTimestamp;
 
 @end
 
@@ -59,6 +60,7 @@
     _barrageMinSpace = 10;
     _speed = MGXBarrageDefaultSpeed;
     _idleCount = 0;
+    _lastTimestamp = 0;
 }
 
 #pragma mark SetupTrack
@@ -240,6 +242,11 @@
     if (!self.delegate || ![self.delegate respondsToSelector:@selector(barrageView:didSelectBarrageCell:)]) {
         return nil;
     }
+    
+    if (_lastTimestamp == event.timestamp){
+        return nil;
+    }
+    _lastTimestamp = event.timestamp;
     
     if ([self touchesCheck:point]) {
         return self;
