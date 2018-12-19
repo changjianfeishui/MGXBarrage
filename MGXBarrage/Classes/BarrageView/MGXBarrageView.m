@@ -162,6 +162,7 @@
         }
         return;
     }
+    [self updateReuseCell];
     dispatch_semaphore_wait(_readLock, DISPATCH_TIME_FOREVER);
     MGXBarrageTrackView *idleTrack = nil;
     for (MGXBarrageTrackView *track in self.tracks) {
@@ -192,7 +193,6 @@
     animation.toValue = [NSValue valueWithCGPoint:CGPointMake(-0.5 * cellWidth, idleTrack.bounds.size.height * 0.5)];
     animation.duration = duration;
     animation.repeatCount = 1;
-    animation.delegate = self;
     animation.removedOnCompletion = NO;
     animation.fillMode = kCAFillModeForwards;
     animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear];
@@ -201,14 +201,13 @@
 }
 
 
-#pragma mark CAAnimationDelegate
-- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+- (void)updateReuseCell
 {
     for (int i = 0; i < self.poolMgr.allPools.count; i++) {
         MGXViewReusePool *pool = self.poolMgr.allPools[i];
         for (UIView<MGXBarrageDisplay> *cell in pool.usingQueue) {
-            CAAnimation *ani = [cell.layer animationForKey:@"MGXBarrageView"];
-            if (ani == anim) {
+            CGRect frame = cell.layer.presentationLayer.frame;
+            if (frame.origin.x <= -frame.size.width) {
                 [cell.layer removeAnimationForKey:@"MGXBarrageView"];
                 [cell removeFromSuperview];
                 [pool enqueueReusableView:cell];

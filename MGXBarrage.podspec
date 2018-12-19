@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MGXBarrage'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'iOS弹幕库.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/changjianfeishui/MGXBarrage'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mongox' => '329735967@qq.com' }
+  s.author           = { 'mangox' => '329735967@qq.com' }
   s.source           = { :git => 'https://github.com/changjianfeishui/MGXBarrage.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
